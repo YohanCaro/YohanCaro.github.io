@@ -49,10 +49,9 @@ header p {
 }
 
 #projects-section {
- 	position: relative;
+	position: relative;
     padding-bottom: 50%;
     height: 0;
-    overflow: hidden;
 }
 
 #whoiam-section{
@@ -77,8 +76,12 @@ header p {
 }
 
 .footer {
+	width: 100%;
+	height: 25px;
+	
 	background-color: black;
 	color: blanchedalmond;
+	position: absolute;
 }
 
 .footer .text-footer {
