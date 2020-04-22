@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
 @import url(menu.css);
+@import url(cards.css);
 
 * {
     margin: 0;
@@ -13,24 +14,24 @@ body {
 }
 
 header {
-	background-color: darkblue;
+	background-color: #1abc9c;
 	position: relative;
 	height: 100%;
+	padding-bottom: 20px;
 }
 
 .home-text {
 	position: relative;
-	padding-top: 110px;
-	padding-bottom: 110px;
+	padding-bottom: 120px;
 	text-align: center;
     color: #FFFFFF;
 }
 
 .home-text h1 {
 	font-size: 90px;
-	margin-top: 60PX;
 	margin-bottom: 10px;
-    font-family:'Open Sans', Arial, sans-serif;
+	font-family:'Open Sans', Arial, sans-serif;
+	padding-bottom: 10px;
 }
 
 .home-text h2 {
@@ -38,6 +39,7 @@ header {
 	margin-top: 0;
 	margin-bottom: 10px;
 	font-family:'Gabriola';
+	padding-bottom: 10px;
 }
 
 header p {
@@ -67,4 +69,21 @@ header p {
     overflow: hidden;
 }
 
+.avatar {
+	align-content: center;
+	box-sizing: border-box;
+	padding-left: 42%;
+	padding-top: 150px;
+}
+
+.footer {
+	position: static;
+	margin-top: 100px;
+	background-color: black;
+	color: blanchedalmond;
+}
+
+.footer .text-footer {
+	text-align: center;
+}
 
