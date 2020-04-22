@@ -5,7 +5,7 @@
 }
 
 .contenedor {
-    background: #000000;
+    background: #343a40;
     padding:10px;
     width: 100%;
     position: fixed;
@@ -35,9 +35,14 @@
     list-style: none;
     display: flex;
     justify-content: center;
-    background-color: #000;
+    background-color: #343a40;
+    top: 0;
+    transition: top 0.5s;
 }
 
+.menu li a:hover {
+    color: chartreuse;
+}
 
  .menu li{
     flex-flow: 1;
@@ -50,12 +55,13 @@
     text-align: center;
     display: block;
     padding: 8px 25px;
-    color: gray;
+    color: #343a40;
     text-decoration: none;
     color: #FFFFFF;
+    font-weight: bold;
 }
 
-@media (max-width:1000px) {
+@media (max-width:768px) {
     
     .contenedor label {
         display: block;
