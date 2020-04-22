@@ -8,11 +8,12 @@
     
     <body>
        
-       <div class="contenedor">
-       	<input type="checkbox" id="btn_menu">
-        <label class="menuIcon" for="btn_menu"><img src="img/menu.png" alt=""></label>
+        <div class="contenedor">
 
+       	<input type="checkbox" id="btn_menu">
+        <label for="btn_menu"><img src="img/menu.png" alt=""></label>
             <nav class="menu">    
+            
 			    <ul class="list">
 				    <li><a href="#home" class="page-scroll">Inicio</a></li>
                     <li><a href="#projects-section" class="page-scroll">Mis proyectos</a></li>
@@ -24,18 +25,57 @@
 	    </div>
       
       	<header id="home">
+			<div class="avatar">
+				<img src="img/avatar_perfil.jpg" alt="">
+			</div>
 		    <div class="home-text">
 			    <h1>
-				    <strong>Yohan :D</strong>
+				    <strong>Una Página!</strong>
 			    </h1>
-			    <h2 class="slogan">La página de Yohan</h2>
+			    <h2 class="slogan">La página de Yohan o algo así...</h2>
 		    </div>
 	    </header>
        
-        <section>
-            <div>
-                
-            </div>
-        </section>
-    </body>
+        <section id="projects-section">
+            <div class="projects-section-text"> 
+				<h2>Proyectos :3</h2>
+				<p>____________________</p>
+			</div>
+			<div class="container">
+				<div class="card">
+					<img src="img/brick_breaker.jpg" alt="">
+					<h4>Brick Breaker</h4>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos explicabo voluptatum
+						 qui molestiae doloribus vel tenetur impedit obcaecati consectetur voluptas, 
+						 veritatis, eligendi odit commodi beatae officia iusto alias repellendus aperiam!</p>
+					<a href="link">Ver más</a>
+				</div>
+
+				<div class="card">
+					<img src="img/pong.png" alt="">
+					<h4>Pong</h4>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos explicabo voluptatum
+						qui molestiae doloribus vel tenetur impedit obcaecati consectetur voluptas, 
+						veritatis, eligendi odit commodi beatae officia iusto alias repellendus aperiam!</p>
+					<a href="https://github.com/YohanCaro/YohanCaro.github.io/raw/master/Pong.jar">Ver más</a>
+				</div>
+
+				<div class="card">
+					<img src="img/sudoku.png" alt="">
+					<h4>Card</h4>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos explicabo voluptatum
+						qui molestiae doloribus vel tenetur impedit obcaecati consectetur voluptas, 
+						veritatis, eligendi odit commodi beatae officia iusto alias repellendus aperiam!</p>
+					<a href="link">Ver más</a>
+				</div>
+			</div>
+		</section>
+		<script src="js/main.js"></script>
+	</body>
+	<footer>
+		<div class="footer">
+			<p class="text-footer"> Copyright © Yohan - 2020</p>
+		</div>
+		
+	</footer>
 </html>
