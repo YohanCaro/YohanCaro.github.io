@@ -1,4 +1,4 @@
-let loc = window.pageYOffset;
+/*let loc = window.pageYOffset;
 window.onscroll = function () {
     let loc2 = window.pageYOffset;
 
@@ -10,4 +10,4 @@ window.onscroll = function () {
 
     loc = loc2;
 
-}
+}*/

@@ -57,7 +57,8 @@ header p {
 #projects-section {
 	position: relative;
     padding-bottom: 50%;
-    height: 0;
+	height: 0;
+	overflow: visible;
 }
 
 #whoiam-section{
