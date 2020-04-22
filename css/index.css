@@ -8,9 +8,15 @@
     box-sizing: border-box;
 }
 
+html {
+	min-height: 100%;
+	position: relative;
+  }
+
 body {
 	padding: 0;
-    margin: 0;
+	margin: 0;
+	margin-bottom: 40px;
 }
 
 header {
@@ -78,10 +84,10 @@ header p {
 .footer {
 	width: 100%;
 	height: 25px;
-	
+	position: absolute;
+	bottom: 0;
 	background-color: black;
 	color: blanchedalmond;
-	position: absolute;
 }
 
 .footer .text-footer {
