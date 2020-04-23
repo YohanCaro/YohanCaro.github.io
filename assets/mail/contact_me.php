@@ -1,7 +1,7 @@
 <?php
 // Check for empty fields
 if(empty($_POST['name']) || empty($_POST['email']) || empty($_POST['phone']) || empty($_POST['message']) || !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
-  http_response_code(500);
+  http_response_code(1000);
   exit();
 }
 
@@ -18,5 +18,5 @@ $header = "From: yohan.caro@uptc.edu.co.com\n"; // This is the email address the
 $header .= "Reply-To: $email";	
 
 if(!mail($to, $subject, $body, $header))
-  http_response_code(500);
+  http_response_code(1000);
 ?>
